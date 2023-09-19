@@ -1,0 +1,19 @@
+abe6d56 Merge pull request #1 from zalarez/feature-zalarez
+7085cd7 change new_features,txt
+d24563c changed heading on Readme
+35b440e changed heading in readme
+bbac16f resolve merge conflicts. Incorporated both texts
+f29a674 change text of new_features
+8dea163 change new_features text
+9b73d15 merge features with main branch
+112fdea change text in file_1
+5402892 delete random file
+dbc1a21 edit text of new_features
+3790225 delete random txt file. delete incorrect gitignore file
+a6919bc add empty file
+56b104e create gitignore
+06e92e3 add new file
+68ad91c add gitignore
+84b7993 add Readme file
+9867079 change text in file_2
+991aaa6 change text in file_1

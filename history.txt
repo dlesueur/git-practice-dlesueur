@@ -1,0 +1,180 @@
+  598  git --version
+  599  git config --global user.name "Daphne LeSueur"
+  600  git config --global user.name "daphnelesueur@gmail.com"
+  601  git config --global core.editor "code --wait"
+  602  git config --global init.defaultBranch main
+  603  git config --list
+  604  git config --global user.name "Daphne LeSueur"
+  605  git config --global user.email "daphnelesueur@gmail.com"
+  606  git config --list
+  607  git branch
+  618  mkdir git_practice
+  620  git status
+  622  git status
+  623  git init
+  624  git init
+  625  git status
+  628  cd git_practice
+  630  git status
+  631  git add file_1.txt
+  632  git status
+  633  git commit -m 'create file_1.txt'
+  634  git status
+  635  git log
+  637  git status
+  638  git add file_1.txt
+  639  git status
+  640  git add file_2.txt
+  641  git status
+  642  git commit -m 'Edited text files'
+  643  git status
+  644  git log --oneline
+  645  git lot
+  646  git log
+  674  git --version
+  686  cd git_practi
+  687  cd git_practie
+  688  cd git_practice
+  689  git branch
+  690  git branch new_feature
+  691  git branch
+  692  git switch new_feature
+  693  git branch
+  695  git add .
+  696  git commit -m 'create feature file'
+  697  git status
+  698  git log --oneline
+  699  git switch main
+  700  git log --oneline
+  701  git branch
+  702  git merge new_feature
+  703  git ignore .DS_Store
+  704  nano .gitignore
+  705  git log --oneline
+  706  git add .
+  707  git commit -m 'create gitignore'
+  708  git
+  709  git log
+  713  git clone Unit01-Intro-to-cpp/homework1a-intro-to-cpp
+  716  cd Desktop/'STAT 386'/git_practice
+  718  git init
+  720  git status
+  721  git add file_1.txt
+  722  git commit
+  723  git commit -m 'change text in file_1'
+  724  git add file_2.txt
+  725  git commit -m 'change text in file_2'
+  726  git log
+  729  git add Readme.md
+  730  git commit -m 'add Readme file'
+  734  git add ignore-files.gitignore
+  735  git commit -m 'add gitignore'
+  736  git log
+  737  git --oneline
+  739  git status
+  740  git status
+  742  git status
+  743  git add new-file.txt
+  744  git commit -m 'add new file'
+  745  git status
+  748  rm ignore-files.gitignore
+  749  nano .gitignore
+  750  git add .gitignore
+  751  git commit -m 'create gitignore'
+  752  git status
+  753  git branch features
+  754  git switch features
+  755  git log
+  757  git add new_features.txt
+  758  git commit -m 'add empty file'
+  760  git status
+  761  git commit .
+  762  git aadd .
+  763  git add . 
+  764  git commit -m 
+  765  git commit -m 'delete random txt file. delete incorrect gitignore file'
+  766  git status
+  768  git switch features
+  769  git add new_features.txt
+  770  git commit -m 'edit text of new_features'
+  771  git status
+  772  git switch main
+  776  git log
+  798  git push
+  809  git clone Unit01-Intro-to-cpp/homework1a-intro-to-cpp
+  811  git clone Unit01-Intro-to-cpp/homework1a-intro-to-cpp
+  812  git clone https://github.com/BYUCS235/cs235-assignments/tree/main/Unit01-Intro-to-cpp/homework1a-intro-to-cpp
+  813  git clone 'https://github.com/BYUCS235/cs235-assignments/tree/main/Unit01-Intro-to-cpp/homework1a-intro-to-cpp'
+  819  git clone https://github.com/BYUCS235/cs235-assignments.git
+  927  cd Desktop/'STAT 386'/git_practice
+  928  git ls
+  931  git add .
+  932  git commit -m 'delete random file'
+  933  git status
+  935  git log
+  936  git switch features
+  937  git status
+  938  git log
+  940  git add new_features.txt
+  941  git commit -m 'add empty file'
+  943  git add new_features.txt
+  944  git commit -m 'change text in new_features'
+  945  git log
+  946  git switch main
+  948  git switch branch
+  949  git switch features
+  951  git switch main
+  953  git add file_1.txt
+  954  git commit -m 'change text in file_1'
+  955  git merge
+  956  git branch
+  957  git merge features
+  958  git commit -m 'merge features with main branch'
+  959  git log
+  963  git add new_features.txt
+  964  git commit -m 'change new_features text'
+  965  git switch features
+  967  git add new_features.txt
+  968  git commit -m 'change text of new_features'
+  969  git switch main
+  970  git merge features
+  971  git add .
+  972  git commit -m 'resolve merge conflicts. Incorporated both texts'
+  973  git branch -d features
+  974  git add readme.md
+  975  git commit -m 'changed heading in readme'
+  976  git add Readme.md
+  977  git commit -m 'changed heading in readme'
+  978  git status
+  979  git remote add origin git@github.com:dlesueur/git-practice-dlesueur.git
+  980  git remote -v
+  981  git push
+  982  git push -u origin main
+  983  git add Readme.md
+  984  git commit -m 'changed heading on Readme'
+  985  git push
+  990  git clone git@github.com:dlesueur/git-practice-zalarez.git
+  992  git add .
+  993  git commit -m 'add text to file_2'
+  994  git init
+  995  git add .
+  996  git commit -m 'add text to file_2'
+  997  git push origin feature-dlesueur
+  998  git branch feature-dlesueur
+  999  git switch feature-dlesueur
+ 1000  git push origin feature-dlesueur
+ 1003  git clone git@github.com:dlesueur/git-practice-zalarez.git
+ 1004  git branch feature-dlesueur
+ 1005  git switch feature-dlesueur
+ 1008  git add .
+ 1009  git commit -m 'make changes to file_1'
+ 1010  git status
+ 1011  git push origin feature-<your-name>
+ 1012  git push origin feature-dlesueur
+ 1013  git push
+ 1014  git push git-practice-zalarez feature-dlesueur
+ 1016  git_practice
+ 1017  cd git_practice
+ 1018  git pull
+ 1019  gitlog.txt
+ 1020  git log --oneline > gitlog.txt
